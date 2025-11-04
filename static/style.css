@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#video, #canvas, #capturedImage {
+    max-width: 100%;
+    border: 2px solid #dee2e6;
+    border-radius: 0.375rem;
+}
+
+.face-result {
+    border-left: 4px solid #007bff;
+    background-color: #f8f9fa;
+}
+
+.face-known {
+    border-left-color: #28a745;
+}
+
+.face-unknown {
+    border-left-color: #dc3545;
+}
+
+.face-live {
+    border-left: 4px solid #28a745;
+}
+
+.face-suspicious {
+    border-left: 4px solid #ffc107;
+}
+
+.text-live {
+    color: #28a745;
+}
+
+.text-suspicious {
+    color: #ffc107;
+}
+
+.continuous-active {
+    background-color: #d4edda;
+    border: 2px solid #28a745;
+}
+
+.recognition-active {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { background-color: #f8f9fa; }
+    50% { background-color: #e9ecef; }
+    100% { background-color: #f8f9fa; }
+}
